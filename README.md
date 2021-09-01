@@ -1,24 +1,69 @@
-## Ketoswags: FRïÐGÊ    
+# FRïÐGÊ  
 Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well.
 
-## Week 0 Grading
-#### * Tech Talk 0: All members have IntelliJ, Slack, & Github fully installed. All of us have code running as well. We plan to code in Java.
-#### * Tech Talk 0.1: Delegated Crystal as the Scrum Leader, Risa as the Raspberry Pi Coordinator, Ava as the Data Baser, and Sarah as the all around Coder.
-#### * Tech Talk 0.2: Created a basic idea for our website. Fleshed out the components as evident with the project plan.
-#### * Tech Talk 0.3: Look here for scrum board with issues.
-#### * Tech Talk 0.4: Forked code, code fixes, and running code can all be viewed here. Link to Crystal and Sarah’s journal. Link to Ava and Risa’s journal. 
+### How to run FRïÐGÊ
+To access the website, visit http://fridge.cf/ (the public IP address) OR clone it on your own machine:
+
+Install all necessary packages with `pip install -r requirements.txt`
+
+Run using `WORKING ON IT` 
+
+# CB Units 
+### Primitive Types
+### Using Objects
+### Boolean Expressions and if Statements
+### Iteration
+### Writing Classes
+### Array
+### ArrayList
+### 2D Array
+### Inheritance
+### Recursion 
+
+
+# CB Big Idea Elaborations
+### Big Idea 1: Modularity(MOD)
+* Object-oriented programming
+* Abstraction 
+
+### Big Idea 2: Variables(VAR)
+* Variables store data and create data abstraction 
+
+### Big Idea 3: Control(CON)
+* Thinking algorithmically
+
+### Big Idea 4: Impact of Computing(IC)
+* Aware of privacy, security, and ethical issues
+
+### Big Idea 5: Impact of Computing
+
+# Code Review: 
+
+
+# Big Ticket Items
+Note: this information can also be found on our [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1)
+
+# Further Research
+
+
+### Homepage, Navbar, and styles
+Our homepage code can be found 
 
 
 
-## Getting started
-#### * Clone project to IntelliJ
-#### * Verify Project Structure to use a good Java JDK (adopt-openJ9-15) 
-#### * Play or entry point is Main.java, look for play option in tray.  This file eanbles Spring to load
-#### * Java source (src/main/java) had Java files.  Find "controllers" path, these files enable HTTP route and HTML file relationship.  Note, html 
-#### * HTML source (src/main/resources) had templates and supporting files.  Find index.html as this file is launched by defaul in Spring.  Other HTML files are loaded by building a "@Controller"
+### Search Page
+ 
 
 
 
-## IDE management
-#### * A ".gitignore" can teach a Developer a lot about Java runtime.  A target directory is created when you press play button, byte code is generated and files are moved into this location.
-#### * A "pom.xml" file can teach you a lot about Java dependencies.  This is similar to "requirements.txt" file in Python.  It manages packages and dependencies.
+### From Individual and Class Lectures
+
+
+# Goals
+
+### ✔️ Completed Goals ✔️
+
+
+
+# Creators
+Sarah Xie, Crystal Widjaja, Ava Brooks, Risa Iwazaki 
