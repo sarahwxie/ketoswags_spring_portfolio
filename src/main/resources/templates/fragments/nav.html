@@ -7,7 +7,7 @@
     <!-- Begin navigation fragments -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
         <a class="navbar-brand" href="/">
-            <img src="/static/images/ncs_logo.png" th:src="@{/images/FridgeLogo.png}" width="100" height="60" class="d-inline-block align-center" alt="">
+            <img src="/static/images/ncs_logo.png" th:src="@{/images/FridgeLogo.png}" width="100" height="50" class="d-inline-block align-center" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,6 +18,9 @@
                 <!--root menu -->
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Recipes<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/aboutus">About Us<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
