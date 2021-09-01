@@ -1,14 +1,12 @@
 ## Ketoswags: FRïÐGÊ    
 Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well.
 
-## Visual thoughts
-#### * Starter code should be fun and practical
-#### * Organize with Bootstrap menu 
-#### * Add some color and fun through VANTA Visuals (birds, halo, solar, net)
-#### * Show some practical and fun links (hrefs) like Twitter, Git, Youtube
-#### * Show student project specific links (hrefs) per page
-#### * Show student TPT ideas
-#### * Show student About me pages
+## Week 0 Grading
+#### * Tech Talk 0: All members have IntelliJ, Slack, & Github fully installed. All of us have code running as well. We plan to code in Java.
+#### * Tech Talk 0.1: Delegated Crystal as the Scrum Leader, Risa as the Raspberry Pi Coordinator, Ava as the Data Baser, and Sarah as the all around Coder.
+#### * Tech Talk 0.2: Created a basic idea for our website. Fleshed out the components as evident with the project plan.
+#### * Tech Talk 0.3: Look here for scrum board with issues.
+#### * Tech Talk 0.4: Forked code, code fixes, and running code can all be viewed here. Link to Crystal and Sarah’s journal. Link to Ava and Risa’s journal. 
 
 
 
