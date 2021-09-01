@@ -66,4 +66,4 @@ Our homepage code can be found
 
 
 # Creators
-Sarah Xie, Crystal Widjaja, Ava Brooks, Risa Iwazaki 
+Sarah Xie, Crystal Widjaja, Ava Brooks, Risa Iwazaki period 2
