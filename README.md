@@ -1,7 +1,7 @@
 # FRïÐGÊ  
 Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well.
 
-### How to run Goodtunes
+### How to run FRïÐGÊ
 To access the website, visit http://fridge.cf/ (the public IP address) OR clone it on your own machine:
 
 Install all necessary packages with `pip install -r requirements.txt`
