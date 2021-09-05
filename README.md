@@ -16,15 +16,15 @@ Sarah Xie 10/10
 Ava Brooks 10/10
 Risa Iwazaki10/10
 
-Scrum board [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1)
-Nav bar code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/fragments/nav.html)
-Greet code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/java/com/example/sping_portfolio/controllers/Greet.java)
-Vanta Birds code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/java/com/example/sping_portfolio/controllers/Birds.java)
-Mini Lab Issue [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/11)
-About Us Video [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/aboutus.html)
-Ava and Risa Journal [here](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.b6f9w76ucuoh)
-Crystal and Sarah Journal [here](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit#heading=h.15b3tr98dokl)
-Personal Work Plans:
+#Scrum board [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1)
+#Nav bar code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/fragments/nav.html)
+#Greet code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/java/com/example/sping_portfolio/controllers/Greet.java)
+#Vanta Birds code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/java/com/example/sping_portfolio/controllers/Birds.java)
+#Mini Lab Issue [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/11)
+#About Us Video [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/aboutus.html)
+#Ava and Risa Journal [here](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.b6f9w76ucuoh)
+#Crystal and Sarah Journal [here](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit#heading=h.15b3tr98dokl)
+#Personal Work Plans:
 * Crystal: Hybrid plan where I use the mac at school and personal desktop at home
 * Risa: Personal computer plan
 * Ava: Personal computer plan
