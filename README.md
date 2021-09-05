@@ -10,7 +10,7 @@ Install all necessary packages with `pip install -r requirements.txt`
 
 Run using `WORKING ON IT` 
 
-#Week 2 Grading
+## Week 2 Grading
 Crystal Widjaja 10/10
 Sarah Xie 10/10
 Ava Brooks 10/10
