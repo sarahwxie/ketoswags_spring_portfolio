@@ -20,7 +20,7 @@
                     <a class="nav-link" href="/recipes">Recipes<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/aboutus">About Us<span class="sr-only"></span></a>
+                    <a class="nav-link" href="/aboutus">About<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,28 +45,20 @@
                         <a class="dropdown-item" href="https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1" target="_blank" rel="noopener noreferrer">Github Scrum Board</a>
                     </div>
                 </li>
+                <a class="nav navbar-nav navbar-right" href="/mybag">
+
+                </a>
             </ul>
             <!-- Dark mode action -->
-            <div class="custom-control custom-switch">
-                <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
-                <label class="custom-control-label" for="darkSwitch"></label>
-            </div>
             <!-- Navigation bar JavaScript support -->
-            <script>
-                // Dark Mode Toggle
-                function darkFunction() {
-                    let element = document.body;
-                    element.classList.toggle("dark-mode");
-                }
-                // Clock controller
-                let clockElement = document.getElementById('clock');
-                function clock() {
-                    let date = new Date();
-                    clockElement.textContent = date.toLocaleString();
-                }
-                // Clock refresh frequency
-                setInterval(clock, 1000);
-            </script>
+
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <img src="/static/images/bag.png" th:src="@{/images/bag.png}" width="30" height="42" class="d-inline-block align-center" alt="">
+                </li>
+            </ul>
         </div>
     </nav>
     <!-- Begin navigation fragments -->
