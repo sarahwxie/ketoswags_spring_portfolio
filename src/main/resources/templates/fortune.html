@@ -43,7 +43,7 @@
         }
 
         .box {
-          position: absolute;
+          position: static;
           margin: auto;
           bottom: 0;
           left: 0;
@@ -244,15 +244,20 @@
 <h1>Our Fortune Cookie!</h1>
 <form action="/fortune" method="GET" id="greetForm">
     <div>
-        <label for="greetField">Type your name for a fortune!</label>
+        <label for="greetField">Enter a number to get a fortune.</label>
         <input name="name" id="greetField">
         <button>Get my Fortune!!</button>
     </div>
 </form>
 
-<div class="box" th:if="${name} != 'World'">
-    <div class="cookie rotate"></div>
-    <span class="run-animation" th:text="'Hey, ' + ${name} + '! The early bird gets the worm, but the second mouse gets the cheese.'"></span>
+<div th:if="${name} != 1000">
+    <h2>Here's your fortune!</h2>
+    <th:block th:each="i: ${#numbers.sequence(0, name)}">
+        <div class="box">
+            <div class="cookie rotate"></div>
+            <span class="run-animation" th:text="'The early bird gets the worm but the second mouse gets the cheese. Your lucky numbers are: '+ ${name + 42} + ', ' + ${name * 2} + ', and ' + ${name + 100}"></span>
+        </div>
+    </th:block>
 </div>
 </div>
 <!-- partial -->

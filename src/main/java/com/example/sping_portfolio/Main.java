@@ -47,9 +47,9 @@ class ava {
 class fortune {
     @GetMapping("/fortune")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String fortune(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+    public String fortune(@RequestParam(name="name", required=false, defaultValue="999") String name, Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
-        model.addAttribute("name", name);
+        model.addAttribute("name", Integer.parseInt(name)+1);
         return "fortune"; // returns HTML VIEW (greeting)
     }
 }
