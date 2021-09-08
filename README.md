@@ -1,4 +1,4 @@
-# FRïÐGÊ  
+# FRïÐGÊ  hi
 Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well.
 
 ### How to run FRïÐGÊ
