@@ -44,6 +44,24 @@ class ava {
 }
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
+class crystal {
+    @GetMapping("/crystal")
+    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    public String crystal() {
+        return "crystal"; // returns HTML VIEW (greeting)
+    }
+}
+
+@Controller  // HTTP requests are handled as a controller, using the @Controller annotation
+class sarah {
+    @GetMapping("/sarah")
+    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    public String sarah() {
+        return "sarah"; // returns HTML VIEW (greeting)
+    }
+}
+
+@Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 class fortune {
     @GetMapping("/fortune")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
