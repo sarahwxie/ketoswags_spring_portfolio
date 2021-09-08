@@ -8,8 +8,36 @@
     <!-- End of head content specific to page -->
 </div></head>
 
+<div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to pa<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+
+    <title>Greet</title>
+    -->
+</div></head>
+
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/fortune" method="GET" id="greetForm">
+                <div>
+                    <label for="greetField">Type a greeting name?</label>
+                    <input name="name" id="greetField">
+                    <button>Greetings!</button>
+                    <p th:text="'Greetings, ' + ${name} + '!'"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>ge -->
     <div class="product" style="margin-top: 2%;">
         <div class="row" style="padding: 0% 10% 5%;">
 
@@ -40,5 +68,4 @@
     </script>
     <!-- End of custom script specific to page -->
 </div>
-
 </html>
