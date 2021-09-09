@@ -46,6 +46,12 @@ public class Main {
             return "crystal"; // returns HTML VIEW (greeting)
         }
 
+        @GetMapping("/risa")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String risa() {
+            return "risa"; // returns HTML VIEW (greeting)
+        }
+
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String sarah() {
