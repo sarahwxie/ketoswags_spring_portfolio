@@ -25,7 +25,7 @@ public class Main {
 
         @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String binary() {
-            return "starters/binary";
+            return "binary";
         }
 
         @GetMapping("/recipes")
