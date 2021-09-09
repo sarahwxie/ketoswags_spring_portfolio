@@ -23,6 +23,11 @@ public class Main {
             return "aboutus"; // returns HTML VIEW (greeting)
         }
 
+        @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String binary() {
+            return "starters/binary";
+        }
+
         @GetMapping("/recipes")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String recipes() {
