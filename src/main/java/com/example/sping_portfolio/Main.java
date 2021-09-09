@@ -23,8 +23,9 @@ public class Main {
             return "aboutus"; // returns HTML VIEW (greeting)
         }
 
-        @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String binary() {
+        @GetMapping("/binary")
+        public String binary(@RequestParam(name = "bits", required = false, defaultValue = "8") int bits, Model model) {// CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+            model.addAttribute("bits",bits);
             return "binary";
         }
 
