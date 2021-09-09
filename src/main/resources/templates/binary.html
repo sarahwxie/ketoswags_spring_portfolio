@@ -16,9 +16,9 @@
     <script>
         const BITS = [[${bits}]];
         const MAX = 2 ** BITS - 1;
-        const MSG_ON = "Turn on";
-        const IMAGE_ON = "/images/openfridge";
-        const MSG_OFF = "Turn off";
+        const MSG_ON = "Open Fridge";
+        const IMAGE_ON = "/images/openfridge.png";
+        const MSG_OFF = "Close Fridge";
         const IMAGE_OFF = "/images/closedfridge.png"
 
         // return string with current value of each bit
@@ -140,8 +140,8 @@
 
                     <tr>
                         <th:block th:each="i: ${#numbers.sequence(0, bits-1)}">
-                            <td><img class="img-responsive py-3" th:id="'bulb' + ${i}" src="" th:src="@{'/images/bulb_off.png'}" alt="" width="40" height="Auto">
-                                <button type="button" th:id="'butt' + ${i}" th:onclick="'javascript:toggleBit(' + ${i} + ')'">Turn on</button>
+                            <td><img class="img-responsive py-3" th:id="'bulb' + ${i}" src="" th:src="@{'/images/closedfridge.png'}" alt="" width="40" height="Auto">
+                                <button type="button" th:id="'butt' + ${i}" th:onclick="'javascript:toggleBit(' + ${i} + ')'">Open Fridge</button>
                             </td>
                         </th:block>
                     </tr>
