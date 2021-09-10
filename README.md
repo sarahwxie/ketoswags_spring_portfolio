@@ -12,7 +12,7 @@ Run using `WORKING ON IT`
 Crystal Widjaja 10/10
 Sarah Xie 10/10
 Ava Brooks 10/10
-Risa Iwazaki10/10
+Risa Iwazaki 10/10
 
 ### Scrum board [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1)
 ### Nav bar code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/fragments/nav.html)
