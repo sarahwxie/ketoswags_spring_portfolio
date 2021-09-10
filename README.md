@@ -1,4 +1,4 @@
-# Week 3 Pop Quiz
+
 
 
 # FRïÐGÊ  hi
@@ -10,6 +10,12 @@ To access the website, visit http://fridge.cf/ (the public IP address) OR clone 
 Install all necessary packages with `pip install -r requirements.txt`
 
 Run using `WORKING ON IT` 
+
+## Week 3 Pop Quiz
+ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+[Crystal and Sarah Journal:](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
+[Risa and Ava Journal:](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
+
 
 ## Week 2 Grading
 Crystal Widjaja 10/10
