@@ -12,7 +12,7 @@ Install all necessary packages with `pip install -r requirements.txt`
 Run using `WORKING ON IT` 
 
 ## Week 3 Pop Quiz
-ketoswags, [scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 
 Crystal and Sarah Journal: [link](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
 
@@ -21,7 +21,7 @@ Risa and Ava Journal: [link](https://docs.google.com/document/d/18oonZvdVRPGzeur
 ### Individul Grading:
  - Sarah Xie, sarahwxie, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie), [profile](https://github.com/sarahwxie)
  - Ava Brooks, avabrooks, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks), [profile](https://github.com/avabrooks)
- - Crystal Widjaja [aks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie), [profile](https://github.com/sarahwxie)
+ - Crystal Widjaja, crystalwidjaja, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja), [profile](https://github.com/crystalwidjaja)
 
 ## Week 2 Grading
 Crystal Widjaja 10/10
