@@ -12,11 +12,11 @@ Install all necessary packages with `pip install -r requirements.txt`
 Run using `WORKING ON IT` 
 
 ## Week 3 Pop Quiz
-ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+ketoswags, [scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 
-Crystal and Sarah Journal: [link](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
+[Crystal and Sarah Journal:](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
 
-Risa and Ava Journal: [link](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
+[Risa and Ava Journal:](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
 
 ### Individul Grading:
  - Sarah Xie, sarahwxie, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie), [profile](https://github.com/sarahwxie)
