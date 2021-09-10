@@ -20,7 +20,7 @@ Risa and Ava Journal: [link](https://docs.google.com/document/d/18oonZvdVRPGzeur
 
 ### Individul Grading:
  - Sarah Xie, sarahwxie, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie), [profile](https://github.com/sarahwxie)
- - Ava Brooks, avabrooks, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks), [commits])https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks), [profile](https://github.com/avabrooks)
+ - Ava Brooks, avabrooks, [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks), [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks), [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks), [profile](https://github.com/avabrooks)
 
 ## Week 2 Grading
 Crystal Widjaja 10/10
