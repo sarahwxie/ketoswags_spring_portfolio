@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sarah</title>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-</body>
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Sarah</title>
+
+    <!-- End of head content specific to page -->
+</div>
+
+</head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div style="padding: 60px; margin-left: 50px;">
+        <h1>Sarah's About Us Page</h1>
+        <p>Sarah is a Senior at Del Norte High School who is 17 years old and female.</p>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
 </html>

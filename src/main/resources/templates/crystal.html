@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>crystal</title>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-</body>
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Crystal</title>
+
+    <!-- End of head content specific to page -->
+</div>
+
+</head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div style="padding: 60px; margin-left: 50px;">
+        <h1>Crystal's About Us Page</h1>
+        <p>Crystal info</p>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
 </html>
