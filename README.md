@@ -3,7 +3,7 @@
 | -------------------------- |-----------------------------| 
 | Ava Brooks               | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-67466188) <br>  * [In Progress](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540014) | 
 | Sarah Xie               | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68683586) <br> * [In Progress](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-67466187) | 
-| Risa Iwazaki                | * [Completed]() <br> * [In Progress](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540269) | 
+| Risa Iwazaki                | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68684860) <br> * [In Progress](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540269) | 
 | Crystal Widjaja                | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540186) <br> * [In Progress]()|
 
 ## Week 3 Pop Quiz
