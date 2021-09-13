@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Cart Classes</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div style="padding: 60px; margin-left: 50px;">
+
+        <h1>Do I have enough ingredients to make something? </h1>
+        <h4>Using Java Classes</h4>
+        <br>
+        <th:block th:each="message: ${list}">
+            <p th:text="${message}"><br></p>
+        </th:block>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>

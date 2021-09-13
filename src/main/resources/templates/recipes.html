@@ -1,10 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FRïÐGÊ</title>
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Recipes</title>
+    <style>
+        .gridBlock {
+            padding: 30px;
+        }
+
+        .button {
+          flex: 1 1 auto;
+          margin: 30px;
+          margin-right:130px;
+          margin-top:-30px;
+          margin-bottom: 50px;
+          padding: 20px;
+          border: 2px solid #f7f7f7;
+          text-align: center;
+          text-transform: uppercase;
+          position: relative;
+          overflow: hidden;
+          transition: 0.3s;
+        }
+
+        .button:after {
+          position: absolute;
+          transition: 0.3s;
+          content: "";
+          width: 0;
+          left: 50%;
+          bottom: 0;
+          height: 3px;
+          background: #f7f7f7;
+        }
+
+        .button:hover {
+          cursor: pointer;
+          border-radius: 30px;
+        }
+        .button:hover:after {
+          width: 100%;
+          width: 0%;
+          left: 0;
+        }
+    </style>
+    <!-- End of head content specific to page -->
+</div>
+
 </head>
-<body>
-Recipes Page
-</body>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div style="padding: 60px; margin-left: 50px;">
+
+        <h1>Recipes </h1>
+        <div style="display:grid;grid-template-columns: 1fr 1fr 1fr; padding-right:50px;">
+            <div class="gridBlock">
+                <h4>Breakfast</h4>
+                <p>The definition of breakfast is a morning meal, or the first meal of the day. Eggs and bacon that you eat first thing in the morning for your first meal is an example of breakfast. The first meal of the day, usually eaten in the morning.</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Brunch</h4>
+                <p>Brunch is defined as a late morning or early afternoon meal – usually occurring between 11:00 AM and 3:00 PM. The menu often consists of a combination of breakfast and lunch dishes, although your options are really endless.</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Lunch</h4>
+                <p>Lunch is a meal eaten around midday. During the 20th century, the meaning gradually narrowed to a meal eaten midday. Lunch is commonly the second meal of the day, after breakfast.</p>
+            </div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+            <div class="gridBlock">
+                <h4>Tea Time</h4>
+                <p>Teatime is the time at which the tea meal is usually eaten, which is late afternoon to early evening, being the equivalent of merienda.</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Dinner</h4>
+                <p>Dinner is defined as the largest meal of the day, often eaten in the evening after you have already had breakfast and lunch. An example of dinner is when you go out to a restaurant at 7:00 PM and eat a meal.</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Dessert</h4>
+                <p> the last course of a meal. In the United States dessert is likely to consist of pastry, cake, ice cream, pudding, or fresh or cooked fruit.</p>
+            </div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+            <div class="gridBlock">
+                <h4>Drinks</h4>
+                <p>Coffee, smoothies, juice, lemonade, etc</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Snacks</h4>
+                <p>A snack is a portion of food often smaller than a regular meal, generally eaten between meals. Snacks come in a variety of forms including packaged and processed foods and items made from fresh ingredients at home.</p>
+            </div>
+            <div class="gridBlock">
+                <h4>Misc</h4>
+                <p>stuff you can technically eat</p>
+            </div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+            <div class="button">See Recipes</div>
+        </div>
+
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
 </html>

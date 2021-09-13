@@ -66,6 +66,7 @@ public class Main {
             model.addAttribute("name", Integer.parseInt(name) + 1);
             return "fortune"; // returns HTML VIEW (greeting)
         }
+
     }
 }
 
