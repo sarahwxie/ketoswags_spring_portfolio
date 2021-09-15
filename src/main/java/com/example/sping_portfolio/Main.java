@@ -20,7 +20,7 @@ public class Main {
         @GetMapping("/aboutus")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String aboutus() {
-            return "aboutus"; // returns HTML VIEW (greeting)
+            return "aboutus";
         }
 
         @GetMapping("/binary")
@@ -32,31 +32,31 @@ public class Main {
         @GetMapping("/recipes")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String recipes() {
-            return "recipes"; // returns HTML VIEW (greeting)
+            return "recipes";
         }
 
         @GetMapping("/ava")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String ava() {
-            return "ava"; // returns HTML VIEW (greeting)
+            return "ava";
         }
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String crystal() {
-            return "crystal"; // returns HTML VIEW (greeting)
+            return "crystal";
         }
 
         @GetMapping("/risa")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String risa() {
-            return "risa"; // returns HTML VIEW (greeting)
+            return "risa";
         }
 
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String sarah() {
-            return "sarah"; // returns HTML VIEW (greeting)
+            return "sarah";
         }
 
         @GetMapping("/fortune")
@@ -64,7 +64,7 @@ public class Main {
         public String fortune(@RequestParam(name = "name", required = false, defaultValue = "999") String name, Model model) {
             // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
             model.addAttribute("name", Integer.parseInt(name) + 1);
-            return "fortune"; // returns HTML VIEW (greeting)
+            return "fortune";
         }
 
     }
