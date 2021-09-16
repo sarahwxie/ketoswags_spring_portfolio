@@ -65,6 +65,12 @@ public class Main {
             return "sarah";
         }
 
+        @GetMapping("/babyback")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String babyback() {
+            return "babyback";
+        }
+
         @GetMapping("/fortune")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String fortune(@RequestParam(name = "name", required = false, defaultValue = "999") String name, Model model) {
