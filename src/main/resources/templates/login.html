@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>login page</title>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>FRïÐGÊ</title>
+
+    <!-- End of head content specific to page -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .topnav {
@@ -30,7 +35,6 @@
         body{
             margin: 0;
             padding: 0;
-            font-family: serif;
             background: #fce5cdff;
         }
         .container{
@@ -85,8 +89,10 @@
             background: #23cc71;
         }
     </style>
+</div>
 </head>
-<body>
+<body><div layout:fragment="content" th:remove="tag">
+
 
 <div class="container">
     <h1>login</h1>
@@ -98,5 +104,4 @@
     </form>
 
 </div>
-</body>
-</html>
+</div></body>
