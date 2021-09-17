@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #fce5cdff;
+        }
+        .topnav a {
+            float: left;
+            color: GoldenRod;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #333;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: GoldenRod;
+            color: white;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: serif;
+            background: #fce5cdff;
+        }
+        .container{
+            width: 300px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: #823a23;
+            text-align: center;
+        }
+        .container h1{
+            color: GoldenRod;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        .container input[type = "text"], .container input[type = "password"]{
+            border: 0;
+            background: #823a23;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid GoldenRod;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: black;
+            border-radius: 24px;
+            transition: 0.25s;
+        }
+        .container input[type = "text"]:focus,.container input[type = "password"]:focus{
+            width: 280px;
+            border-color: GoldenRod;
+        }
+        .container input[type = "submit"]{
+            border: 0;
+            background: #6682828;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border-radius: 24px;
+            border: 2px solid GoldenRod;
+            padding: 14px 40px;
+            outline: none;
+            color: black;
+            transition: 0.25s;
+            cursor: pointer;
+            color: #000000;
+        }
+        .container input[type = "submit"]:hover{
+            background: #23cc71;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>login</h1>
+    <br>
+    <form action="/signin" method="POST">
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        <input type="submit" name= "" value="Login">
+    </form>
+
+</div>
+</body>
+</html>
