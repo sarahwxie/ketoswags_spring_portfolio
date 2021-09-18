@@ -177,26 +177,44 @@ h1 {
 .shelf:nth-child(9) {
   top: 370px;
 }
+
+.homepageGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 100px 200px;
+    align-items:center;
+    column-gap:50px;
+    background-color:white;
+    border-radius:50%;
+}
     </style>
-    <h1>FRïÐGÊ</h1>
-    <div class="fridge">
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div class="shelf"></div>
-        <div id="food"></div>
-        <div class="freezer door">
-            <div class="handle"></div>
+    <div class="homepageGrid">
+        <div style="margin-right:100px;align-items:right; display:grid; justify-items:end;">
+            <img src="/static/images/ncs_logo.png" th:src="@{/images/FridgeLogo.png}" style="width:350px;margin-right:0px;" class="d-inline-block align-center" alt="">
+            <p><i>Improving your cuisine one meal at a time</i></p>
         </div>
-        <div class="body door">
-            <div class="handle"></div>
+        <div class="fridge" style="margin-left:0px;">
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div id="food"></div>
+            <div class="freezer door">
+                <div class="handle"></div>
+            </div>
+            <div class="body door">
+                <div class="handle"></div>
+            </div>
         </div>
+
     </div>
+
+
 
     <!-- partial -->
     <script src='https://codepen.io/housamz/pen/rNLdGNQ.js'></script><script  src="./script.js"></script>
