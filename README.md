@@ -2,9 +2,9 @@
 | Team Member           | Issue(s)  | 
 | -------------------------- |-----------------------------| 
 | Ava Brooks               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
-| Sarah Xie               | * [Issue]() <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
-| Risa Iwazaki                | * [Issue]() <br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
-| Crystal Widjaja                | * [Issue]() <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
+| Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
+| Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) <br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
+| Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
 
 # Prototype Check
 | Team Member           | Issue(s)  | 
