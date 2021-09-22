@@ -3,7 +3,7 @@
 | -------------------------- |-----------------------------| 
 | Ava Brooks               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
 | Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
-| Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
+| Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
 | Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
 
 # Prototype Check
