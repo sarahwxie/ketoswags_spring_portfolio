@@ -47,10 +47,58 @@ public class Main {
             return "recipes";
         }
 
-        @GetMapping("/Breakfast")
+        @GetMapping("/breakfast")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String Breakfast() {
-            return "Breakfasts";
+        public String breakfast() {
+            return "breakfast";
+        }
+
+        @GetMapping("/brunch")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String brunch() {
+            return "brunch";
+        }
+
+        @GetMapping("/lunch")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String lunch() {
+            return "lunch";
+        }
+
+        @GetMapping("/teatime")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String teatime() {
+            return "teatime";
+        }
+
+        @GetMapping("/dinner")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String dinner() {
+            return "dinner";
+        }
+
+        @GetMapping("/dessert")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String dessert() {
+            return "dessert";
+        }
+
+        @GetMapping("/drinks")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String drinks() {
+            return "drinks";
+        }
+
+        @GetMapping("/snacks")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String snacks() {
+            return "snacks";
+        }
+
+        @GetMapping("/pastries")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String pastries() {
+            return "pastries";
         }
 
         @GetMapping("/ava")
