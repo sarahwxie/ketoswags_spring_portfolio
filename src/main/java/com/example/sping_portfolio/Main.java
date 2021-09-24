@@ -23,6 +23,18 @@ public class Main {
             return "aboutus";
         }
 
+        @GetMapping("/imagetest")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String imagetest() {
+            return "imagetest";
+        }
+
+        @GetMapping("/algorithm")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String algorithm() {
+            return "algorithm";
+        }
+
         @GetMapping("/binary")
         public String binary(@RequestParam(name = "bits", required = false, defaultValue = "8") int bits, Model model) {// CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
             model.addAttribute("bits",bits);
