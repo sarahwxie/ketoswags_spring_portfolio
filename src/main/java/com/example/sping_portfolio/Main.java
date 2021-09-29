@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import java.util.Scanner;
 
 @SpringBootApplication
 public class Main {
@@ -117,6 +118,31 @@ public class Main {
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String risa() {
             return "risa";
+        }
+        class expalindrome
+        {
+            public void main(String args[])
+            {
+                int x,number, y=0,temp=0;
+                Scanner s=new Scanner(System.in);
+                System.out.println("Enter any number: ");
+                number=s.nextInt();
+                x=number;
+                while(number>0)
+                {
+                    x=number%10;
+                    number=number/10;
+                    temp=temp*10+x;
+                }
+                if(temp==y)
+                {
+                    System.out.println("Number is Palindrome");
+                }
+                else
+                {
+                    System.out.println("not Palindrome");
+                }
+            }
         }
 
         @GetMapping("/sarah")
