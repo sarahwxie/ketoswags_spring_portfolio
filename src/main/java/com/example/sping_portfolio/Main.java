@@ -104,8 +104,7 @@ public class Main {
         @GetMapping("/ava")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String ava() {
-            return "ava";
-        }
+            return "ava"; }
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings

@@ -5,7 +5,7 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
-    <title>Ava</title>
+    <title>FRïÐGÊ</title>
 
     <!-- End of head content specific to page -->
 </div>
@@ -15,8 +15,37 @@
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div style="padding: 60px; margin-left: 50px;">
-        <h1>Ava's About Us Page</h1>
-        <p>Ava info</p>
+        <div>
+            <!-- Input -->
+            <h1>Padovan Sequence</h1>
+            <form action="/ava" method="GET" id="padForm">
+                <div>
+                    <label for="greetField">Type the nth number in the Padovan Sequence</label>
+                    <input name="name" id="greetField">
+                    <button>Go!</button>
+                </div>
+            </form>
+            <div>
+                <br>
+                <br>
+                <br>
+                <h1>Algorithm results:</h1>
+                <table class="mx-auto">
+                    <!--tr>
+                        <th scope="col">Method</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">List</th>
+                    </tr>
+                    <tr th:each="fib : ${fibList}">
+                        <td th:text="${fib.getName()}"></td>
+                        <td th:text="${fib.getTimeElapsed()}"></td>
+                        <td th:text="${fib.getNth()}"></td>
+                        <td th:text="${fib.getList()}"></td>
+                    </tr-->
+                </table>
+            </div>
+        </div>
     </div>
     <!-- End of body content specific to page -->
 </div></body>
