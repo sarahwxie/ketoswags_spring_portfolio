@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
-    <title>Risa</title>
+    <title>FRïÐGÊ</title>
 
     <!-- End of head content specific to page -->
 </div>
@@ -14,10 +15,47 @@
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div style="padding: 60px; margin-left: 50px;">
-        <h1>Risa's About Us Page</h1>
-        <p>Palindrome for an integer</p>
+        <div>
+            <!-- Input -->
+            <h1>A Palindrome is a word or number that reads the same when backwords</h1>
 
-        <p>Palindrome for a word</p>
+            <form action="/risa" method="GET" id="padform">
+
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">Type of Palindrome</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Integer</th>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Word</th>
+                        <td>racecar</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <label for="greetField">Type a number to determine if it is a Palindrome</label>
+                    <input name="name" id="greetfiled">
+                    <button>Go!</button>
+                </div>
+
+            </form>
+
+            <form action="/risa" method="GET" id="palindrome">
+                <div>
+                    <label for="greetField">Type a word to determine if it is a Palindrome</label>
+                    <input name="name" id="greetField">
+                    <button>Go!</button>
+                </div>
+
+            </form>
+        </div>
     </div>
     <!-- End of body content specific to page -->
 </div></body>
