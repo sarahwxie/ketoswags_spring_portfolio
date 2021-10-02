@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Triangle</title>
+    <script src="http://localhost:8081/livereload.js"></script>
+
+    <!-- End of head content specific to page -->
+
+</div></head>
+
+<body layout:fragment="content" th:remove="tag" >
+<!-- partial:index.partial.html -->\
+<div style="padding:50px;">
+<h1>Sierpinski Triangle!</h1>
+<form action="/triangle" method="GET" id="greetForm">
+    <div>
+        <label for="greetField">Enter a number between 1 and 10.</label>
+        <input name="name" id="greetField">
+        <button>Submit</button>
+    </div>
+</form>
+<img th:src="@{${'/images/triangles/SierpinskiTriangle' + name + '.png'}}" alt="Triangle">
+
+</div>
+
+</body>
+
+</html>

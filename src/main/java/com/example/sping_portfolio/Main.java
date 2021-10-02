@@ -7,6 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 @SpringBootApplication
 public class Main {
@@ -169,6 +171,7 @@ public class Main {
             model.addAttribute("name", Integer.parseInt(name) + 1);
             return "fortune";
         }
+
 
     }
 }
