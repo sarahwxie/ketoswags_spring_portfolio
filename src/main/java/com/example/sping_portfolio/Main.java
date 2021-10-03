@@ -121,13 +121,18 @@ public class Main {
         @GetMapping("/ava")
         public String ava(@RequestParam(name="padseq", required=false,  defaultValue="0") String padseq, Model model) {
             int n = Integer.parseInt(padseq);
+
             if (n > 0) {
                 Padovan p = new Padovan();
-                int result1 = p.calculateWithForLoop(n);
-                int result2 = p.calculateWithWhileLoop(n);
-                System.out.println(result1);
-                System.out.println(result2);
+
+                model.addAttribute("forLoop", p.calculateWithForLoop(n));
+                model.addAttribute("whileLoop", p.calculateWithWhileLoop(n));
             }
+            else {
+                model.addAttribute("forLoop", 0);
+                model.addAttribute("whileLoop", 0);
+            }
+
             return "ava";
 
         }
