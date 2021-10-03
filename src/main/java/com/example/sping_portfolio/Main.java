@@ -1,5 +1,6 @@
 package com.example.sping_portfolio;
 import com.example.sping_portfolio.algorithms.Padovan;
+import com.example.sping_portfolio.algorithms._Padovan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -116,13 +117,16 @@ public class Main {
             return "crystal";
         }
 
+
         @GetMapping("/ava")
         public String ava(@RequestParam(name="padseq", required=false,  defaultValue="0") String padseq, Model model) {
             int n = Integer.parseInt(padseq);
             if (n > 0) {
                 Padovan p = new Padovan();
-                int result = p.calculateWithForLoop(n);
-                System.out.println(result);
+                int result1 = p.calculateWithForLoop(n);
+                int result2 = p.calculateWithWhileLoop(n);
+                System.out.println(result1);
+                System.out.println(result2);
             }
             return "ava";
 

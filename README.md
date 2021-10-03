@@ -1,7 +1,7 @@
 # Week 6 Issues
 | Team Member           | Issue(s)  | 
 | -------------------------- |-----------------------------| 
-| Ava Brooks               |  | * [Algorithm Video](https://youtu.be/MPG0JvjTpiw)<br> * [Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=drive_open&ouid=107962257844964947260)
+| Ava Brooks| * [Algorithm Video]() <br> * [Unit 6](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.na706nx8x6hi) |
 | Sarah Xie               |  | 
 | Risa Iwazaki                | * [Algorithm Video](https://youtu.be/MPG0JvjTpiw)<br> * [Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=drive_open&ouid=107962257844964947260) | 
 | Crystal Widjaja                | |
