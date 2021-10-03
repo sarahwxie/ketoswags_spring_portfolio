@@ -1,4 +1,5 @@
 package com.example.sping_portfolio;
+import com.example.sping_portfolio.algorithms.Padovan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,6 +7,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.*;
 import java.io.*;
@@ -104,15 +109,23 @@ public class Main {
             return "pastries";
         }
 
-        @GetMapping("/ava")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String ava() {
-            return "ava"; }
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String crystal() {
             return "crystal";
+        }
+
+        @GetMapping("/ava")
+        public String ava(@RequestParam(name="padseq", required=false,  defaultValue="0") String padseq, Model model) {
+            int n = Integer.parseInt(padseq);
+            if (n > 0) {
+                Padovan p = new Padovan();
+                int result = p.calculateWithForLoop(n);
+                System.out.println(result);
+            }
+            return "ava";
+
         }
 
         @GetMapping("/risa")
