@@ -1,6 +1,5 @@
 package com.example.sping_portfolio;
 import com.example.sping_portfolio.algorithms.Padovan;
-import com.example.sping_portfolio.algorithms._Padovan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,11 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.*;
-import java.io.*;
 
 @SpringBootApplication
 public class Main {
