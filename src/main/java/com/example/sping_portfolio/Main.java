@@ -1,6 +1,7 @@
 package com.example.sping_portfolio;
-import com.example.sping_portfolio.algorithms.Padovan;
 
+import com.example.sping_portfolio.algorithms.PadovanForLoop;
+import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
@@ -118,10 +119,11 @@ public class Main {
             int n = Integer.parseInt(padseq);
 
             if (n > 0) {
-                Padovan p = new Padovan();
+                PadovanForLoop p1 = new PadovanForLoop();
+                model.addAttribute("forLoop", p1.calculatePadovan(n));
 
-                model.addAttribute("forLoop", p.calculateWithForLoop(n));
-                model.addAttribute("whileLoop", p.calculateWithWhileLoop(n));
+                PadovanWhileLoop p2 = new PadovanWhileLoop();
+                model.addAttribute("whileLoop", p2.calculatePadovan(n));
             }
             else {
                 model.addAttribute("forLoop", 0);
