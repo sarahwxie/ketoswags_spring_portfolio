@@ -120,10 +120,12 @@ public class Main {
 
             if (n > 0) {
                 PadovanForLoop p1 = new PadovanForLoop();
-                model.addAttribute("forLoop", p1.calculatePadovan(n));
+                p1.calculatePadovan(n);
+                model.addAttribute("forLoop", p1.getResults());
 
                 PadovanWhileLoop p2 = new PadovanWhileLoop();
-                model.addAttribute("whileLoop", p2.calculatePadovan(n));
+                p2.calculatePadovan(n);
+                model.addAttribute("whileLoop", p2.getResults());
             }
             else {
                 model.addAttribute("forLoop", 0);
