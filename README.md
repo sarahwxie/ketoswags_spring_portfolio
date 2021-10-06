@@ -1,7 +1,7 @@
 # Week 7 Issues
 | Team Member           | Issue(s)  | 
 | -------------------------- |-----------------------------| 
-| Ava Brooks|) |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) |
+| Ava Brooks| |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) |
 | Sarah Xie               | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302)  | 
 | Risa Iwazaki                | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-70101298) | 
 | Crystal Widjaja                |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314472) |
