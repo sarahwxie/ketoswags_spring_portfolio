@@ -118,31 +118,6 @@ public class Main {
         public String risa() {
             return "risa";
         }
-        class expalindrome
-        {
-            public void main(String args[])
-            {
-                int x,number, y=0,temp=0;
-                Scanner s=new Scanner(System.in);
-                System.out.println("Enter any number: ");
-                number=s.nextInt();
-                x=number;
-                while(number>0)
-                {
-                    x=number%10;
-                    number=number/10;
-                    temp=temp*10+x;
-                }
-                if(temp==y)
-                {
-                    System.out.println("Number is Palindrome");
-                }
-                else
-                {
-                    System.out.println("not Palindrome");
-                }
-            }
-        }
 
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
