@@ -1,6 +1,7 @@
 package com.example.sping_portfolio;
 
 import com.example.sping_portfolio.algorithms.PadovanForLoop;
+import com.example.sping_portfolio.grayscale.ImageInfo;
 import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -26,12 +29,6 @@ public class Main {
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String aboutus() {
             return "aboutus";
-        }
-
-        @GetMapping("/imagetest")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String imagetest() {
-            return "imagetest";
         }
 
         @GetMapping("/algorithm")
@@ -194,7 +191,39 @@ public class Main {
         }
 
 
+        @GetMapping("/image")
+        public String image(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/drinks.jpg";
+            lii.add(new ImageInfo(file0, web_server + file0, 12));
+            lii.get(0).read_image();
+
+            String file1 = "/images/dessert.jpg";
+            lii.add(new ImageInfo(file1, web_server + file1, 2));
+            lii.get(1).read_image();
+
+            String file2 = "/images/teatime.jpg";
+            lii.add(new ImageInfo(file2, web_server + file2, 7));
+            lii.get(2).read_image();
+
+            model.addAttribute("lii", lii);
+            return "image";
+        }
+
+        @GetMapping("/image/grayscale")
+        public String image_grayscale(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/bag.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String str = lii.get(0).grayscale();
+//        String str = lii.get(0).grayscale();
+            model.addAttribute("str", str);
+            return "image_grayscale";
+            }
+
     }
 }
-
-
