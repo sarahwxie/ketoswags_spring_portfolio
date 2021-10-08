@@ -165,10 +165,15 @@ public class Main {
             String web_server = "http://localhost:8081/";
             List<ImageInfo> lii = new ArrayList<>();
 
-            String file0 = "/images/Lunch.png";
+            String file0 = "/images/breakfast.png";
             lii.add(new ImageInfo(file0, web_server + file0, 12));
             lii.get(0).read_image();
 
+            String file1 = "/images/brunch.png";
+            lii.add(new ImageInfo(file1, web_server + file0, 12));
+            lii.get(1).read_image();
+
+            model.addAttribute("lii", lii);
             return "recipes";
         }
 
@@ -177,28 +182,22 @@ public class Main {
             String web_server = "http://localhost:8081/";
             List<ImageInfo> lii = new ArrayList<>();
 
-            String file0 = "/images/Lunch.png";
+            String file0 = "/images/breakfast.png";
             lii.add(new ImageInfo(file0, web_server+file0, 12));
             String str = lii.get(0).grayscale();
 //        String str = lii.get(0).grayscale();
+
+            String file1 = "/images/brunch.png";
+            lii.add(new ImageInfo(file1, web_server+file1, 12));
+            String str1 = lii.get(1).grayscale();
+
+
             model.addAttribute("str", str);
+            model.addAttribute("str1", str1);
             return "recipes_grayscale";
         }
 
         // need to connect to front end with recipes_grayscale.html
-
-        @GetMapping("/image/grayscale")
-        public String image_grayscale(Model model) {
-            String web_server = "http://localhost:8081/";
-            List<ImageInfo> lii = new ArrayList<>();
-
-            String file0 = "/images/bag.png";
-            lii.add(new ImageInfo(file0, web_server+file0, 12));
-            String str = lii.get(0).grayscale();
-//        String str = lii.get(0).grayscale();
-            model.addAttribute("str", str);
-            return "image_grayscale";
-            }
 
     }
 }
