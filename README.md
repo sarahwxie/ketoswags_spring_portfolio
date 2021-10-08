@@ -1,10 +1,18 @@
-# Week 5 Issues
+# Week 7 Issues
 | Team Member           | Issue(s)  | 
 | -------------------------- |-----------------------------| 
-| Ava Brooks               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
-| Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
-| Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
-| Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
+| Ava Brooks| [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) |
+| Sarah Xie               | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302)  | 
+| Risa Iwazaki                | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-70101298) | 
+| Crystal Widjaja                |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314472) |
+
+# Week 6 Issues
+| Team Member           | Issue(s)  | 
+| -------------------------- |-----------------------------| 
+| Ava Brooks| * [Algorithm Video](https://drive.google.com/file/d/1__8Joc9WEPp5KCvZKZpnhzV78222r-y_/view) <br> * [Unit 6](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.na706nx8x6hi) |
+| Sarah Xie               |  | 
+| Risa Iwazaki                | * [Algorithm Video](https://youtu.be/MPG0JvjTpiw)<br> * [Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=drive_open&ouid=107962257844964947260) | 
+| Crystal Widjaja                | |
 
 # Prototype Check
 | Team Member           | Issue(s)  | 
@@ -14,6 +22,13 @@
 | Risa Iwazaki                | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68684860) <br> * [In Progress](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540269) | 
 | Crystal Widjaja                | * [Completed](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68540186) <br> * [In Progress]()|
 
+## Week 5 Issues
+| Team Member           | Issue(s)  | 
+| -------------------------- |-----------------------------| 
+| Ava Brooks               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
+| Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
+| Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
+| Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
 ## Week 3 Pop Quiz
 ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 

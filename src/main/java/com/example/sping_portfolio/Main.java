@@ -1,11 +1,15 @@
 package com.example.sping_portfolio;
 
+import com.example.sping_portfolio.algorithms.PadovanForLoop;
+import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -102,15 +106,34 @@ public class Main {
             return "pastries";
         }
 
-        @GetMapping("/ava")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String ava() {
-            return "ava"; }
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String crystal() {
             return "crystal";
+        }
+
+
+        @GetMapping("/ava")
+        public String ava(@RequestParam(name="padseq", required=false,  defaultValue="0") String padseq, Model model) {
+            int n = Integer.parseInt(padseq);
+
+            if (n > 0) {
+                PadovanForLoop p1 = new PadovanForLoop();
+                p1.calculatePadovan(n);
+                model.addAttribute("forLoop", p1.getResults());
+
+                PadovanWhileLoop p2 = new PadovanWhileLoop();
+                p2.calculatePadovan(n);
+                model.addAttribute("whileLoop", p2.getResults());
+            }
+            else {
+                model.addAttribute("forLoop", 0);
+                model.addAttribute("whileLoop", 0);
+            }
+
+            return "ava";
+
         }
 
         @GetMapping("/risa")
@@ -143,6 +166,41 @@ public class Main {
             // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
             model.addAttribute("name", Integer.parseInt(name) + 1);
             return "fortune";
+        }
+        @GetMapping("/image")
+        public String image(Model model)  {
+            //String web_server = "http://localhost:8080/";
+            String web_server = "https://csa.nighthawkcodingsociety.com";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/Mona_Lisa.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            lii.get(0).read_image();
+
+            String file1 = "/images/bulb_on.gif";
+            lii.add(new ImageInfo(file1, web_server+file1, 2));
+            lii.get(1).read_image();
+
+            String file2 = "/images/bulb_off.png";
+            lii.add(new ImageInfo(file2, web_server+file2, 7));
+            lii.get(2).read_image();
+
+            model.addAttribute("lii", lii);
+            return "starters/image";
+        }
+
+        @GetMapping("/image/grayscale")
+        public String image_grayscale(Model model) {
+            //String web_server = "http://localhost:8080/";
+            String web_server = "https://csa.nighthawkcodingsociety.com";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/Mona_Lisa.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String str = lii.get(0).grayscale();
+//        String str = lii.get(0).grayscale();
+            model.addAttribute("str", str);
+            return "starters/image_grayscale";
         }
 
     }

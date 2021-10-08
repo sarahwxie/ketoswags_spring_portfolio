@@ -21,34 +21,36 @@
             <form action="/ava" method="GET" id="padForm">
                 <div>
                     <label for="greetField">Type the nth number in the Padovan Sequence</label>
-                    <input name="name" id="greetField">
+                    <input name="padseq" id="greetField">
                     <button>Go!</button>
                     <img src="" th:src="@{'/images/padovan.png'}" style="margin-left:15px; max-width: 25%;">
                 </div>
             </form>
-            <div>
-                <br>
-                <br>
-                <br>
-                <h1>Algorithm results:</h1>
-                <table class="mx-auto">
-                    <!--tr>
-                        <th scope="col">Method</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Number</th>
-                        <th scope="col">List</th>
-                    </tr>
-                    <tr th:each="fib : ${fibList}">
-                        <td th:text="${fib.getName()}"></td>
-                        <td th:text="${fib.getTimeElapsed()}"></td>
-                        <td th:text="${fib.getNth()}"></td>
-                        <td th:text="${fib.getList()}"></td>
-                    </tr-->
-                </table>
-            </div>
+
+            <h1>Algorithm Results:</h1>
+            <br>
+            <br>
+            <table class="container">
+                <thead>
+                <tr style="word-break:break-all">
+                    <th width="100px"><h3>For Loop</h3></th>
+                    <th width="100px"><h3>While Loop</h3></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr style="word-break:break-all;">
+                    <td th:text="${forLoop}"></td>
+                    <td th:text="${whileLoop}"></td>
+                </tr>
+
+                </tbody>
+            </table>
+
         </div>
     </div>
     <!-- End of body content specific to page -->
-</div></body>
+</div></body>>
+
 
 </html>
+
