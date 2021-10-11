@@ -170,8 +170,13 @@ public class Main {
             lii.get(0).read_image();
 
             String file1 = "/images/brunch.png";
-            lii.add(new ImageInfo(file1, web_server + file0, 12));
+            lii.add(new ImageInfo(file1, web_server + file1, 12));
             lii.get(1).read_image();
+
+            String file2 = "/images/lunch.png";
+            lii.add(new ImageInfo(file2, web_server + file2, 12));
+            lii.get(2).read_image();
+
 
             model.addAttribute("lii", lii);
             return "recipes";
@@ -185,15 +190,19 @@ public class Main {
             String file0 = "/images/breakfast.png";
             lii.add(new ImageInfo(file0, web_server+file0, 12));
             String str = lii.get(0).grayscale();
-//        String str = lii.get(0).grayscale();
 
             String file1 = "/images/brunch.png";
             lii.add(new ImageInfo(file1, web_server+file1, 12));
             String str1 = lii.get(1).grayscale();
 
+            String file2 = "/images/lunch.png";
+            lii.add(new ImageInfo(file2, web_server+file2, 12));
+            String str2 = lii.get(2).grayscale();
+
 
             model.addAttribute("str", str);
             model.addAttribute("str1", str1);
+            model.addAttribute("str2", str2);
             return "recipes_grayscale";
         }
 

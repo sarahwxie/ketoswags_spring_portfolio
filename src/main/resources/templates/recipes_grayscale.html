@@ -45,6 +45,8 @@
             width: 0%;
             left: 0;
         }
+
+        .button1 {background-color: #e7e7e7; color: black;} /* Gray */
     </style>
     <!-- End of head content specific to page -->
 </div>
@@ -56,6 +58,7 @@
     <div style="padding: 60px; margin-left: 50px;">
 
         <h1>Recipes </h1>
+        <button type="button"><a href="/recipes">Regular Mode</a></button>
         <div style="display:grid;grid-template-columns: 1fr 1fr 1fr; padding-right:50px;">
             <div class="gridBlock">
                 <h4>Breakfast</h4>
@@ -105,8 +108,8 @@
                 <h4>Pastries</h4>
                 <p>May be savoury or sweetened and come in many different forms </p>
             </div>
-            <img src="" th:src="@{'/images/drinks.jpg'}" alt="drinks" style="margin-left:30px; max-width: 65%;">
-            <img src="" th:src="@{'/images/snacks.jpeg'}" alt="snacks" style="margin-left:30px; max-width: 65%;">
+            <img src="" th:src="${str9}" alt="drinks" style="margin-left:30px; max-width: 65%;">
+            <img src="" th:src="${str}" alt="snacks" style="margin-left:30px; max-width: 65%;">
             <img src="" th:src="@{'/images/pastries.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
             <a href="/drinks"><div class="button">See Recipes</div></a>
             <a href="/snacks"><div class="button">See Recipes</div></a>
