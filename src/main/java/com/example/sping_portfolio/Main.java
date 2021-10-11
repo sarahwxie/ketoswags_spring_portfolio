@@ -177,6 +177,29 @@ public class Main {
             lii.add(new ImageInfo(file2, web_server + file2, 12));
             lii.get(2).read_image();
 
+            String file3 = "/images/snack.png";
+            lii.add(new ImageInfo(file3, web_server + file3, 12));
+            lii.get(3).read_image();
+
+            String file4 = "/images/teatime.png";
+            lii.add(new ImageInfo(file4, web_server + file4, 12));
+            lii.get(4).read_image();
+
+            String file5 = "/images/dinner.png";
+            lii.add(new ImageInfo(file5, web_server + file5, 12));
+            lii.get(5).read_image();
+
+            String file6 = "/images/dessert.png";
+            lii.add(new ImageInfo(file6, web_server + file6, 12));
+            lii.get(6).read_image();
+
+            String file7 = "/images/drinks.png";
+            lii.add(new ImageInfo(file7, web_server + file7, 12));
+            lii.get(7).read_image();
+
+            String file8 = "/images/pastries.png";
+            lii.add(new ImageInfo(file8, web_server + file8, 12));
+            lii.get(8).read_image();
 
             model.addAttribute("lii", lii);
             return "recipes";
@@ -199,10 +222,40 @@ public class Main {
             lii.add(new ImageInfo(file2, web_server+file2, 12));
             String str2 = lii.get(2).grayscale();
 
+            String file3 = "/images/snack.png";
+            lii.add(new ImageInfo(file3, web_server+file3, 12));
+            String str3 = lii.get(3).grayscale();
+
+            String file4 = "/images/teatime.png";
+            lii.add(new ImageInfo(file4, web_server+file4, 12));
+            String str4 = lii.get(4).grayscale();
+
+            String file5 = "/images/dinner.png";
+            lii.add(new ImageInfo(file5, web_server+file5, 12));
+            String str5 = lii.get(5).grayscale();
+
+            String file6 = "/images/dessert.png";
+            lii.add(new ImageInfo(file6, web_server+file6, 12));
+            String str6 = lii.get(6).grayscale();
+
+            String file7 = "/images/drinks.png";
+            lii.add(new ImageInfo(file7, web_server+file7, 12));
+            String str7 = lii.get(7).grayscale();
+
+            String file8 = "/images/pastries.png";
+            lii.add(new ImageInfo(file7, web_server+file8, 12));
+            String str8 = lii.get(8).grayscale();
+
 
             model.addAttribute("str", str);
             model.addAttribute("str1", str1);
             model.addAttribute("str2", str2);
+            model.addAttribute("str3", str3);
+            model.addAttribute("str4", str4);
+            model.addAttribute("str5", str5);
+            model.addAttribute("str6", str6);
+            model.addAttribute("str7", str7);
+            model.addAttribute("str8", str8);
             return "recipes_grayscale";
         }
 
