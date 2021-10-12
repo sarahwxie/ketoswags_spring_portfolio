@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 @SpringBootApplication
 public class Main {
@@ -46,62 +45,62 @@ public class Main {
         @GetMapping("/breakfast")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String breakfast() {
-            return "breakfast";
+            return "recipes/breakfast";
         }
 
         @GetMapping("/brunch")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String brunch() {
-            return "brunch";
+            return "recipes/brunch";
         }
 
         @GetMapping("/lunch")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String lunch() {
-            return "lunch";
+            return "lrecipes/unch";
         }
 
         @GetMapping("/teatime")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String teatime() {
-            return "teatime";
+            return "recipes/teatime";
         }
 
         @GetMapping("/dinner")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String dinner() {
-            return "dinner";
+            return "recipes/dinner";
         }
 
         @GetMapping("/dessert")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String dessert() {
-            return "dessert";
+            return "recipes/dessert";
         }
 
         @GetMapping("/drinks")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String drinks() {
-            return "drinks";
+            return "recipes/drinks";
         }
 
         @GetMapping("/snacks")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String snacks() {
-            return "snacks";
+            return "recipes/snacks";
         }
 
         @GetMapping("/pastries")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String pastries() {
-            return "pastries";
+            return "recipes/pastries";
         }
 
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String crystal() {
-            return "crystal";
+            return "individual/crystal";
         }
 
 
@@ -123,20 +122,20 @@ public class Main {
                 model.addAttribute("whileLoop", 0);
             }
 
-            return "ava";
+            return "individual/ava";
 
         }
 
         @GetMapping("/risa")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String risa() {
-            return "risa";
+            return "individual/risa";
         }
 
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String sarah() {
-            return "sarah";
+            return "individual/sarah";
         }
 
         @GetMapping("/babyback")
