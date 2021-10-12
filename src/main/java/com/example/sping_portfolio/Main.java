@@ -1,8 +1,8 @@
 package com.example.sping_portfolio;
 
 import com.example.sping_portfolio.algorithms.PadovanForLoop;
-import com.example.sping_portfolio.grayscale.ImageInfo;
 import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
+import com.example.sping_portfolio.grayscale.ImageInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
@@ -10,10 +10,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 @SpringBootApplication
 public class Main {
@@ -258,6 +257,64 @@ public class Main {
             model.addAttribute("str8", str8);
             return "recipes_grayscale";
         }
+
+        @GetMapping("/recipes/winter")
+        public String recipes_winter(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/breakfast.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String str = lii.get(0).addTextWatermark();
+
+            String file1 = "/images/brunch.png";
+            lii.add(new ImageInfo(file1, web_server+file1, 12));
+            String str1 = lii.get(1).addTextWatermark();
+
+            String file2 = "/images/lunch.png";
+            lii.add(new ImageInfo(file2, web_server+file2, 12));
+            String str2 = lii.get(2).addTextWatermark();
+
+            String file3 = "/images/snack.png";
+            lii.add(new ImageInfo(file3, web_server+file3, 12));
+            String str3 = lii.get(3).addTextWatermark();
+
+            String file4 = "/images/teatime.png";
+            lii.add(new ImageInfo(file4, web_server+file4, 12));
+            String str4 = lii.get(4).addTextWatermark();
+
+            String file5 = "/images/dinner.png";
+            lii.add(new ImageInfo(file5, web_server+file5, 12));
+            String str5 = lii.get(5).addTextWatermark();
+
+            String file6 = "/images/dessert.png";
+            lii.add(new ImageInfo(file6, web_server+file6, 12));
+            String str6 = lii.get(6).addTextWatermark();
+
+            String file7 = "/images/drinks.png";
+            lii.add(new ImageInfo(file7, web_server+file7, 12));
+            String str7 = lii.get(7).addTextWatermark();
+
+            String file8 = "/images/pastries.png";
+            lii.add(new ImageInfo(file7, web_server+file8, 12));
+            String str8 = lii.get(8).addTextWatermark();
+
+
+            model.addAttribute("str", str);
+            model.addAttribute("str1", str1);
+            model.addAttribute("str2", str2);
+            model.addAttribute("str3", str3);
+            model.addAttribute("str4", str4);
+            model.addAttribute("str5", str5);
+            model.addAttribute("str6", str6);
+            model.addAttribute("str7", str7);
+            model.addAttribute("str8", str8);
+
+            return "recipes_copyright";
+
+        }
+
+
 
         // need to connect to front end with recipes_grayscale.html
 
