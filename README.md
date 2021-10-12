@@ -1,4 +1,5 @@
 # Week 7 Issues
+[GROUP VID] (https://youtu.be/-nuBRmEykGA)
 | Team Member           | Issue(s)  | 
 | -------------------------- |-----------------------------| 
 | Ava Brooks| * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit 7 Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#)|
