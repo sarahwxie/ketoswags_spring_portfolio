@@ -1,6 +1,7 @@
 package com.example.sping_portfolio;
 
 import com.example.sping_portfolio.algorithms.PadovanForLoop;
+import com.example.sping_portfolio.grayscale.ImageInfo;
 import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -28,12 +31,6 @@ public class Main {
             return "aboutus";
         }
 
-        @GetMapping("/imagetest")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String imagetest() {
-            return "imagetest";
-        }
-
         @GetMapping("/algorithm")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String algorithm() {
@@ -44,12 +41,6 @@ public class Main {
         public String binary(@RequestParam(name = "bits", required = false, defaultValue = "8") int bits, Model model) {// CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
             model.addAttribute("bits",bits);
             return "binary";
-        }
-
-        @GetMapping("/recipes")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String recipes() {
-            return "recipes";
         }
 
         @GetMapping("/breakfast")
@@ -141,31 +132,6 @@ public class Main {
         public String risa() {
             return "risa";
         }
-        class expalindrome
-        {
-            public void main(String args[])
-            {
-                int x,number, y=0,temp=0;
-                Scanner s=new Scanner(System.in);
-                System.out.println("Enter any number: ");
-                number=s.nextInt();
-                x=number;
-                while(number>0)
-                {
-                    x=number%10;
-                    number=number/10;
-                    temp=temp*10+x;
-                }
-                if(temp==y)
-                {
-                    System.out.println("Number is Palindrome");
-                }
-                else
-                {
-                    System.out.println("not Palindrome");
-                }
-            }
-        }
 
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
@@ -193,8 +159,107 @@ public class Main {
             return "fortune";
         }
 
+        @GetMapping("/recipes")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String recipes(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/breakfast.png";
+            lii.add(new ImageInfo(file0, web_server + file0, 12));
+            lii.get(0).read_image();
+
+            String file1 = "/images/brunch.png";
+            lii.add(new ImageInfo(file1, web_server + file1, 12));
+            lii.get(1).read_image();
+
+            String file2 = "/images/lunch.png";
+            lii.add(new ImageInfo(file2, web_server + file2, 12));
+            lii.get(2).read_image();
+
+            String file3 = "/images/snack.png";
+            lii.add(new ImageInfo(file3, web_server + file3, 12));
+            lii.get(3).read_image();
+
+            String file4 = "/images/teatime.png";
+            lii.add(new ImageInfo(file4, web_server + file4, 12));
+            lii.get(4).read_image();
+
+            String file5 = "/images/dinner.png";
+            lii.add(new ImageInfo(file5, web_server + file5, 12));
+            lii.get(5).read_image();
+
+            String file6 = "/images/dessert.png";
+            lii.add(new ImageInfo(file6, web_server + file6, 12));
+            lii.get(6).read_image();
+
+            String file7 = "/images/drinks.png";
+            lii.add(new ImageInfo(file7, web_server + file7, 12));
+            lii.get(7).read_image();
+
+            String file8 = "/images/pastries.png";
+            lii.add(new ImageInfo(file8, web_server + file8, 12));
+            lii.get(8).read_image();
+
+            model.addAttribute("lii", lii);
+            return "recipes";
+        }
+
+        @GetMapping("/recipes/grayscale")
+        public String recipes_grayscale(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/breakfast.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String str = lii.get(0).grayscale();
+
+            String file1 = "/images/brunch.png";
+            lii.add(new ImageInfo(file1, web_server+file1, 12));
+            String str1 = lii.get(1).grayscale();
+
+            String file2 = "/images/lunch.png";
+            lii.add(new ImageInfo(file2, web_server+file2, 12));
+            String str2 = lii.get(2).grayscale();
+
+            String file3 = "/images/snack.png";
+            lii.add(new ImageInfo(file3, web_server+file3, 12));
+            String str3 = lii.get(3).grayscale();
+
+            String file4 = "/images/teatime.png";
+            lii.add(new ImageInfo(file4, web_server+file4, 12));
+            String str4 = lii.get(4).grayscale();
+
+            String file5 = "/images/dinner.png";
+            lii.add(new ImageInfo(file5, web_server+file5, 12));
+            String str5 = lii.get(5).grayscale();
+
+            String file6 = "/images/dessert.png";
+            lii.add(new ImageInfo(file6, web_server+file6, 12));
+            String str6 = lii.get(6).grayscale();
+
+            String file7 = "/images/drinks.png";
+            lii.add(new ImageInfo(file7, web_server+file7, 12));
+            String str7 = lii.get(7).grayscale();
+
+            String file8 = "/images/pastries.png";
+            lii.add(new ImageInfo(file7, web_server+file8, 12));
+            String str8 = lii.get(8).grayscale();
+
+
+            model.addAttribute("str", str);
+            model.addAttribute("str1", str1);
+            model.addAttribute("str2", str2);
+            model.addAttribute("str3", str3);
+            model.addAttribute("str4", str4);
+            model.addAttribute("str5", str5);
+            model.addAttribute("str6", str6);
+            model.addAttribute("str7", str7);
+            model.addAttribute("str8", str8);
+            return "recipes_grayscale";
+        }
+
+        // need to connect to front end with recipes_grayscale.html
 
     }
 }
-
-
