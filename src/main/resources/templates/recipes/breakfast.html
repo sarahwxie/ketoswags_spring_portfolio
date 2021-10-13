@@ -15,7 +15,226 @@
     <!-- Start of body content specific to page -->
     <div style="padding: 60px; margin-left: 50px;">
         <h1>Breakfast Recipes</h1>
+        <button>Jump to Recipes!</button>
+        <h5>We all know breakfast is the most important meal of the day. But just because you're aware that this meal is crucial doesn't mean you always have time to whip up something delicious. From school drop-offs to busy commutes to squeezing in a sweat session, weekday mornings can often be our busiest time of day. Or, maybe you’re sick of your go-to toast or bagel and need new, easy breakfast ideas!</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+        </svg>
+
+
+
     </div>
+
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+
+        <!-- Bootstrap core CSS -->
+        <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+        <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+        <meta name="theme-color" content="#7952b3">
+
+
+        <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    </head>
+    <body>
+
+    <main>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'pastries1.jpeg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Brighten up breakfast time or beautify your brunch platter with this delicious danish pastry recipe then sit back and enjoy with a cup of tea. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries2.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">This cheese and onion pasties recipe is perfect for a summer picnic. Best eaten hot from the oven, but are also good cold or can be reheated. We've included a classic video below to show you how to make the pastry.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries3.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">Bungeoppang is an unusual fish-shaped South Korean pastry filled with red beans. The outer shell is made with a simple batter consisting of eggs, flour, raising agents, sugar, and water. It is poured in fish-shaped molds, and a dollop of smooth or coarse red bean paste is then placed in the middle.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries4.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Karipap or curry puff is a small, deep-fried or baked pastry shell filled with thick chicken and potatoes curry. It is believed that the flavorful snack was invented by the Malays from the Malay Peninsula and parts of Sumatra and Borneo.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries5.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Flores de hojaldre is a specialty of the Spanish city of Alcalá de Henares, consisting of puff pastry (hojaldre) that has been rolled into beautiful shapes of flowers or roses. It is the unique shape of the pastry that has given it its name, which translates to flowers of puff pastry.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries6.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Banana and chocolate is such an irresistible combo that I make this quick dessert often. You can also top these tasty bundles with the butter and brown sugar mixture left over from coating the bananas, or sprinkle on a dash of sea salt.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries7.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Easy, filling and perfect for parties these Sausage Rolls are savory, meaty and full of just the right amount of spices that they are a hit among party guests!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries8.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Your guests will think you made these yummy rolls from scratch...or bought them from a specialty bakery. No one needs to know the recipe calls for refrigerated dough!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/pastries9.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">These pint-sized Nutella hand pies made with puff pastry are too good to keep to yourself! </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+
+        </div>
+    </footer>
+
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <!-- End of body content specific to page -->
 </div></body>
 
