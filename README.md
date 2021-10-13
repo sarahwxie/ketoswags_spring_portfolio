@@ -1,3 +1,18 @@
+## Week 3 Pop Quiz
+ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+
+[Crystal and Sarah Journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
+
+[Risa and Ava Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
+
+### Individul Grading:
+| Team Member            | Github ID   | Tasks      | Scrum Board    | Commits   | Profile   |
+| ------------------- | ----------------- | ----------------- | ------------ | ------------ | ------------|
+| Sarah Xie| sarahwxie | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie) | [profile](https://github.com/sarahwxie)
+| Ava Brooks | avabrooks | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks) | [profile](https://github.com/avabrooks)
+| Crystal Widjaja | crystalwidjaja | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja) | [profile](https://github.com/crystalwidjaja)
+| Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
+
 # Week 7 Issues
 [GROUP VID](https://youtu.be/-nuBRmEykGA)
 | Team Member           | Issue(s)  | 
@@ -30,20 +45,6 @@
 | Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
 | Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
 | Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
-## Week 3 Pop Quiz
-ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
-
-[Crystal and Sarah Journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
-
-[Risa and Ava Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
-
-### Individul Grading:
-| Team Member            | Github ID   | Tasks      | Scrum Board    | Commits   | Profile   |
-| ------------------- | ----------------- | ----------------- | ------------ | ------------ | ------------|
-| Sarah Xie| sarahwxie | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Asarahwxie) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Asarahwxie) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=sarahwxie) | [profile](https://github.com/sarahwxie)
-| Ava Brooks | avabrooks | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks) | [profile](https://github.com/avabrooks)
-| Crystal Widjaja | crystalwidjaja | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja) | [profile](https://github.com/crystalwidjaja)
-| Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
 
 
 # FRïÐGÊ  hi
