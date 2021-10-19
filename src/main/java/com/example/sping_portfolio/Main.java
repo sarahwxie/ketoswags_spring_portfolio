@@ -204,6 +204,20 @@ public class Main {
             return "recipes";
         }
 
+        @GetMapping("/ascii")
+        public String ascii(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+
+            String file0 = "/images/test.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String[] str = lii.get(0).ascii_toview();
+
+            model.addAttribute("str", str);
+            return "ascii";
+        }
+
+
         @GetMapping("/recipes/grayscale")
         public String recipes_grayscale(Model model) {
             String web_server = "http://localhost:8081/";

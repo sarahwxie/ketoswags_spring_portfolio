@@ -66,6 +66,7 @@ public class ImagePropertyRgb extends ImageInfo {
             BufferedImage img = ImageIO.read(new URL(url)); // Saving internet image to BufferedImage
             byte[] pixels = image_to_pixels(img); // See method definition
             int[] pixels_int = grayscale(pixels);
+            // System.out.println(pixels_int);
             String base64 = pixels_to_base64(img.getWidth(), img.getHeight(), pixels_int);
             return "data:image/jpg;base64," + base64;
         } catch (IOException e) {
@@ -92,6 +93,8 @@ public class ImagePropertyRgb extends ImageInfo {
             pixels_int[i + 2] = (int) val;
             pixels_int[i + 3] = (int) val;
         }
+        System.out.println("this is one answer");
+        System.out.println(pixels_int);
         return pixels_int;
     }
 

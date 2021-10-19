@@ -1,15 +1,21 @@
 package com.example.sping_portfolio.grayscale;
 
+import com.example.sping_portfolio.Main;
 import lombok.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
+import org.springframework.boot.SpringApplication;
 
 import java.awt.*;
+import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.DataBufferByte;
 import java.io.*;
 import java.net.URL;
 import java.awt.image.BufferedImage;
+import java.util.Arrays;
 import javax.imageio.ImageIO;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
 public class ImageInfo {
@@ -48,7 +54,7 @@ public class ImageInfo {
                     this.rgb_matrix[y][x][2] = color.getBlue();
                 }
             }
-            System.out.println(this.rgb_matrix);
+            // System.out.println(this.rgb_matrix);
 
         } catch (Exception e) {
             return e;
@@ -65,13 +71,59 @@ public class ImageInfo {
             BufferedImage img = ImageIO.read(new URL(url)); // Saving internet image to BufferedImage
             byte[] pixels = image_to_pixels(img); // See method definition
             int[] pixels_int = grayscale(pixels);
+            // System.out.println("here's the pixels");
+            // System.out.println(pixels_int);
             String base64 = pixels_to_base64(img.getWidth(), img.getHeight(), pixels_int);
+            // System.out.println("here's the base 64" + base64);
             // System.out.println("data:image/jpg;base64," + base64);
             return "data:image/jpg;base64," + base64;
         } catch (IOException e) {
             e.printStackTrace();
         }
         return "";
+    }
+
+    // sarah+crystal's dope ascii converter
+    public String[] ascii_toview() {
+        try {
+            BufferedImage img = ImageIO.read(new URL(url)); // Saving internet image to BufferedImage
+            byte[] pixels = image_to_pixels(img); // See method definition
+            System.out.println("here it is but before");
+            int[] pixels_int = grayscale(pixels);
+            String[] pixels_string = ascii_conversion(pixels_int);
+            int count = 0;
+            for (int i = 0; i < img.getHeight(); i++)
+            {
+                for (int j = 0; j < img.getWidth(); j++)
+                {
+                    System.out.print(pixels_string[count]);
+                    count ++;
+                }
+                System.out.println();
+
+            }
+            // System.out.println(Arrays.toString(pixels_string));
+            /*
+            String result = String.join("", pixels_string);
+
+            String[] toView = new String[img.getHeight()];
+            for (int i = 0; i < img.getHeight(); i++){
+                String row = "";
+                for (int j = 0; i < img.getWidth(); j++) {
+                    row = row + result.charAt(img.getWidth() * i + j);
+                }
+                toView[i] = row;
+                System.out.println(row);
+            }*/
+            // System.out.println(pixels_string);
+            // System.out.println("here's the base 64" + base64);
+            String[] toView = new String[0];
+            return toView;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String[] toView = new String[0];
+        return toView;
     }
 
 
@@ -136,8 +188,6 @@ public class ImageInfo {
         return Base64.encodeBase64String(data);
     }
 
-
-
     /**
      * Converts the colored pixel array to 1D INT array of grayscale values
      * Grayscale is simple all rgb values set to the same value, (0,0,0) (100,100,100) (255, 255, 255)
@@ -151,12 +201,60 @@ public class ImageInfo {
             for (int y = 1; y < 4; y++) {
                 val += (pixels[i + y] & 0xFF) / 3.0; // The & 0xFF is a "bitwise and" https://www.geeksforgeeks.org/bitwise-operators-in-java/. Just divigin by 3 to get the average
             }
+            // System.out.println("here's a val");
+            // System.out.println(val);
             pixels_int[i] = pixels[i]; // keep alpha the same
             pixels_int[i + 1] = (int) val;
             pixels_int[i + 2] = (int) val;
             pixels_int[i + 3] = (int) val;
         }
         return pixels_int;
+    }
+
+    // the ascii conversion continued
+    public String[] ascii_conversion(int[] pixels) {
+        String[] ascii_list = new String[pixels.length / 4];
+        int count = 0;
+        for (int i = 1; i < pixels.length; i += 4) {
+            float val = pixels[i];
+            if ((int)val > 225){
+                ascii_list[count] = "@";
+            }
+            else if ((int)val > 200){
+                ascii_list[count] = "#";
+            }
+            else if ((int)val > 175){
+                ascii_list[count] = "%";
+            }
+            else if ((int)val > 150){
+                ascii_list[count] = "x";
+            }
+            else if ((int)val > 125){
+                ascii_list[count] = "o";
+            }
+            else if ((int)val > 100){
+                ascii_list[count] = ";";
+            }
+            else if ((int)val > 75){
+                ascii_list[count] = ":";
+            }
+            else if ((int)val > 50){
+                ascii_list[count] = ",";
+            }
+            else if ((int)val > 25){
+                ascii_list[count] = ".";
+            }
+            else {
+                ascii_list[count] = " ";
+            }
+            // System.out.print(ascii_list[count]);
+            count ++;
+            if (count > 256885) {
+                break;
+            }
+        }
+        // System.out.println(ascii_list);
+        return ascii_list;
     }
 
     public int[] normal(byte[] pixels) {
@@ -167,7 +265,7 @@ public class ImageInfo {
             pixels_int[i + 2] = pixels[i + 2];
             pixels_int[i + 3] = pixels[i + 3];
         }
-        System.out.println(pixels_int);
+        // System.out.println(pixels_int);
         return pixels_int;
     }
 
