@@ -132,11 +132,12 @@ public class Main {
             return "individual/risa";
         }
 
+        /*
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String sarah() {
             return "individual/sarah";
-        }
+        }*/
 
         @GetMapping("/babyback")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings

@@ -15,8 +15,8 @@ import java.util.function.Supplier;
 
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
-public class triangle {
-    @GetMapping("/triangle")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+public class sarah {
+    @GetMapping("/sarah")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String triangle(@RequestParam(name = "name", required = false, defaultValue = "10") String name, Model model) {
         TriangleClass myTriangle = new TriangleClass();
         try {
